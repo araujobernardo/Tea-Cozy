@@ -26,7 +26,7 @@ html {
 .navigation {
     float: right;
     height:100%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .navigation a {
@@ -59,4 +59,39 @@ html {
     margin: auto;
     width: 100%;
     background-color: black;
+}
+
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(img/Locations.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.locations-box { 
+    padding: 3%;
+}
+
+.address-box { 
+    min-width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    display: inline-flex;
+    flex-direction: column;
 }
