@@ -95,3 +95,7 @@ html {
     display: inline-flex;
     flex-direction: column;
 }
+
+.footer {
+    float: left;
+}
